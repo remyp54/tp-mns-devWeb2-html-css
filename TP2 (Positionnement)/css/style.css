@@ -1,0 +1,32 @@
+body {
+	width: 100%;
+	font-family: arial;
+}
+
+h1 {
+	text-align: center;
+	background-color: yellowgreen;
+	margin-top: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	color: black;
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: yellowgreen;
+	font-size: 20px;
+}

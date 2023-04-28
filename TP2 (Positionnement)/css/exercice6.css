@@ -1,0 +1,61 @@
+body {
+	font-family: arial;
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: yellowgreen;
+	font-size: 20px;
+}
+
+div {
+	margin: auto;
+	padding: 30px;
+}
+#turquoise {
+	background-color: turquoise;
+	width: 300px;
+	height: 300px;
+}
+
+#vert {
+	background-color: green;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+}
+
+#bleu {
+	background-color: blue;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	z-index: 4;
+	top:160px;
+	left: 840px;
+}
+
+#orange {
+	background-color: orange;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: 240px;
+	left: 920px;
+	z-index: 3;
+}
+
+#jaune {
+	background-color: yellow;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	z-index: 2;
+	top: 270px;
+	left: 950px;
+}

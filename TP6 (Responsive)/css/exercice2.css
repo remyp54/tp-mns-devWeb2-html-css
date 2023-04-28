@@ -1,0 +1,79 @@
+/* Apparence générale début */
+
+* {
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: lightskyblue;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+li {
+	list-style-type: none;
+	font-size: 25px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: yellowgreen;
+}
+
+#menu {
+	font-size: 20px;
+	color: black;
+}
+
+main {
+	margin-top: 100px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 150px;
+	background-color: lightskyblue;
+}
+
+/* Apparence générale fin */
+/* ------------------------------------------- */
+/* Body début */
+
+.separation {
+	margin-bottom: 15px;
+	border-top: 1px solid black;
+}
+
+/* Body fin */
+/* ------------------------------------------- */
+/* Responsive début */
+
+@media screen and (min-width: 821px) {
+	#meteo {
+		float: left;
+		margin-left: 25px;
+	}
+
+	#meteo2 {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.separation {
+		display: none;
+	}
+}
+
+/* Responsive fin */

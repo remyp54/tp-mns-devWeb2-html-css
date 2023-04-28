@@ -1,0 +1,40 @@
+body {
+	font-family: arial;
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: yellowgreen;
+	font-size: 20px;
+}
+
+div {
+	margin: auto;
+	padding: 30px;
+}
+#vert {
+	background-color: green;
+	width: 600px;
+	height: 300px;
+}
+
+#bleu {
+	background-color: blue;
+	width: 500px;
+	height: 250px;
+	position: relative;
+	left: 200px;
+
+}
+
+#orange {
+	background-color: orange;
+	width: 400px;
+	height: 200px;
+	position: relative;
+	right: 360px;
+}
